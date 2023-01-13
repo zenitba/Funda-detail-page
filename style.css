@@ -1,0 +1,43 @@
+:root {
+    --orange: rgb(247, 161, 0);
+    --blueberry: rgb(0, 113, 179);
+    --white:
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ .logo{
+     width: 255px;
+ }
+ nav{
+     display: flex; 
+     flex-flow:row nowrap;
+     justify-content: space-around;
+     align-items: center;
+     background-color: var(--orange);
+     width: 180rem; 
+     height: 15%;
+ }    
+.navbar {
+     width: 30%;
+     background-color: var(--orange);
+}
+       
+.navbar a {
+     text-align: center;
+    color: rgb(255, 255, 255);
+     text-decoration: none;
+     padding: 30px;
+    font-size: 35px;
+} 
+     
+
+.card {
+    padding: 100px;
+  }
+  
+  .card ul {
+    display: flex;
+    list-style: none;
+    padding: 50px;
+    justify-content: space-between;
+  } 
