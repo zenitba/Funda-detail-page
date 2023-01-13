@@ -1,10 +1,15 @@
 :root {
     --orange: rgb(247, 161, 0);
     --blueberry: rgb(0, 113, 179);
-    --white:
-    font-family: 'Times New Roman', Times, serif;
- 
- }
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+    background: white;
+    margin-bottom: 7rem;
+  }
  .logo{
      width: 255px;
  }
