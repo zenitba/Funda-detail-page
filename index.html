@@ -5,37 +5,231 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav>
-            <img src="assets/logo.png" height="auto" width="150px">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <div class="navbar"> 
-              <a href="#"><i class="fa fa-fw fa-home"></i>Mijn Huis</a> 
-              <a href="#"><i class="fa fa-fw fa-user"></i>Login</a>
-            </div>
-        </nav>
-       <main>
-        <div class="card">
-            <h1>Edammerweg 21</h1>
-            <p>1135 EA Edam</p>
-            <h2><strong>€ 675.000 k.k</strong></h2>
-            <img src="assets/huis..jpg" height="700px" width="950px">
-            <ul>
-              <li><img src="assets/767_2160.jpg" height="auto" width="300px">153 m²</li>
-              <li><img src="assets/769_2160.jpg" height="auto" width="300px">236 m²</li>
-              <li><img src="assets/753_2160.jpg" height="auto" width="300px">2 etages</li>
-            </ul>
-            <h2>Omschrijving</h2>
-            <p>Wonen met karakter! Dat is zeker van toepassing op
-                dit royale en uitgebouwde 5-kamer herenhuis in de 
-                Amsterdamse School stijl (totale oppervlakte ca. 171 m²)!
-                Deze 2-onder-1 kap woning aan de J.M. van der Meystraat in 
-                Assendelft is extra ruim dankzij de in 2009 gerealiseerde uitbouw, 
-                deze wordt thans gebruikt als eetkamer. Aan de voorzijde van de woning</p>
-    </body>
-</html>
-   
-   
+    <script src="main.js"></script>
+  </head>
+  <body>
+      <!-- Navigatie balk -->
+  <header>
+      <div class="navigation">
+        <img src="assets/logo.png" alt="logo" class="logo"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="navbar"> 
+          <a href="#"><i class="fa fa-fw fa-home"></i>Mijn Huis</a> 
+          <a href="#"><i class="fa fa-user-circle"></i>Login</a>
+        </div>
+    </div>
+  </header>
+  
+      <!-- Foto's van huizen -->
 
+      <div class="slideshow-container">
 
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="assets/huis..jpg">
+          <div class="text">Voorkant van huis</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="assets/769_2160.jpg">
+          <div class="text">Binnenkant van huis</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="assets/753_2160.jpg">
+          <div class="text">Plattegrond</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+      <!-- Huis Informatie -->
+      <section class="info">
+          <div>
+              <h1>
+                  <span>Schepenmakersdijk 16 F</span>
+                  <span>1135 AG Edam<a target="info"
+                          href="https://www.google.com/maps/place/1135+AG+Edam/@52.5101034,5.044715,20.9z/data=!4m5!3m4!1s0x47c603874921117b:0xa1f9978395e94b65!8m2!3d52.5109066!4d5.0459948?hl=en">Edam-Oude kom</a></span>
+                  <span>€ 799.000 v.o.n.<a href="#"><i class="fa fa-calculator"></i>Wat woorden mijn maandlastsen?</a></span>
+              </h1>
+              <div class="icon">
+              <a href="#"><i class="fa fa-object-ungroup"> 316m²</i></a>
+              <a href="#"><i class="fa fa-fw fa-bed">5</i></a>
+              <a href="#"><i class="fa fa-heart"> 3579</i></a>
+              <a href="#"><i class="fa fa-share-alt"> 543</i></a>
+
+              </div>
+            <main> <strong></strong>
+              <section class="summary">
+                <article>
+                    <h2>Omschrijving</h2>
+                    <p>
+                            Aan de buitenrand van het historische Centrum in Edam, op 
+                            loopafstand van alle centrum en openbaar vervoer voorzieningen gelegen
+                             unieke woning als onderdeel van het voormalige HHNK complex. De woning grenst 
+                             direct aan de Zuidervesting met bijzondere vergezichten. Deze in de breedte georiënteerde 
+                             woning met ruime zonnige tuin op het Zuiden, is de oudste aanwezige opstal binnen het ensemble van 
+                             gebouwen aan de Schepenmakersdijk. Het gebouw omvat 2 huisnummers en heeft de mogelijkheid 
+                             tot dubbele bewoning of een zelfstandig aangebouwd guesthouse of kantoor aan huis. 
+                            Het gehele plan is reeds onherroepelijk vergund, na verbouwing ontstaat een uniek 
+                            woonobject met een totale oppervlakte van <strong>316m²</strong>. 
+                    </p>
+                </article>
+                <article>
+                    <h3>Indeling:</h3>
+                    <strong>Begane grond</strong>
+                    <p>
+                      Entree met ruime hal van 20m², welke toegang verschaft tot 
+                      diverse aangrenzende vertrekken. Voorkamer met zicht op de monumentale gezamenlijke 
+                      binnentuin in historiserende stijl, nieuwgebouwd in de 2e helft van de vorige eeuw en
+                       uitermate geschikt als <strong>royale eetkamer</strong> van ca. 35m². Nog aan te bouwen ruimte welke als keuken
+                        in gebruik te nemen is en welke toegang biedt aan de 19e eeuwse vergaderzaal met een getoogd plafond 
+                        welke een unieke sfeervolle hoogte heeft en als royale living kan fungeren. 
+                    </p>
+                </article>
+                <article>
+                    <h3>Eerste verdieping</h3>
+                    <p>
+                       Vanuit het trappenhuis biedt de hal toegang aan een ruime badkamer 
+                       waarin alle functies zijn voorzien, royale slaapkamer en een overloop/kleed-/kastenkamer
+                        die uitkomt in de hoofdslaapkamer. 
+                      Ook is er een onherroepelijke omgevingsvergunning voor het 
+                      realiseren van de zogenaamde <strong>Kluiswoning.</strong>  Na verwijderen van de
+                       kluis is de volgende indeling mogelijk: 
+                    </p>
+                </article>
+                <article>
+                    <h3>Zolderverdieping</h3>
+                    <p>
+                      Afhankelijk van het beoogde gebruik binnen de ruime Gemengde Bestemming, is 
+                      bij de verbouwing directe toegang tussen het Vlossershuis  <strong>(246m²)</strong> en de Kluiswoning
+                      (78m²) binnen het Gemeenlandshuis goed denkbaar. 
+                      Het Gemeenlandshuis is als zelfstandig appartementsrecht in de Vereniging van
+                       Eigenaren De 4 Jaargetijden vertegenwoordigd. De Vereniging ziet toe op de instandhouding van de gezamenlijke 
+                       unieke binnentuin met daarin aanwezige monumentale elementen en erfafscheiding. 
+                      Kortom een unieke kans om uw eigen woondomein te creëren in het historische centrum van Edam!
+                    </p>
+                </article>
+                <article>
+                    <h3>Bijzonderheden</h3>
+                    <ul>
+                        <li>Benedenwoning (appartement)</li>
+                        <li>Circa 194m<sup>2</sup> woonoppervlak</li>
+                        <li>
+                            Riant perceel van circa 316m<sup>2</sup>
+                        </li>
+                        <li>Royaal uitgebouwde woonkamer</li>
+                        <li>4 slaapkamers</li>
+                        <li>3 badkamers</li>
+                        <li>
+                          Achtertuin 376 m² 
+                        </li>
+                        <li>
+                            Oprit op eigen terrein voor meerdere auto's
+                        </li>
+                        <li>
+                            Op loopafstand van het centrum
+                        </li>
+                        <li>
+                            -Gelegen op het zuiden bereikbaar via achterom
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Details</h3>
+                    <ul>
+                        <li>Bouwjaar circa 1785<li>
+                        <li>
+                            CV combiketel (bouwjaar circa 2020/ eigendom)
+                        </li>
+                        <li>Oplevering in overleg</li>
+                    </ul>
+                    <strong>Bijlagen (op te vragen bij verkopende NVM
+                        makelaar)</strong>
+                    <ul>
+                        <li>Vragenlijst verkoper</li>
+                        <li>Lijst van zaken</li>
+                        <li>Plattegrond</li>
+                        <li>Kadastrale kaart</li>
+                        <li>
+                            Algemene voorwaarden verkopende NVM makelaar
+                        </li>
+                    </ul>
+                    <p>
+                        De gegeven informatie is met zorgvuldigheid
+                        opgesteld, aan de juistheid kunnen echter geen
+                        rechten worden ontleend. Alle verstrekte
+                        informatie moet beschouwd worden als een
+                        uitnodiging tot het doen van een aanbod of om in
+                        onderhandeling te treden.
+                    </p>
+                    <p>
+                        Interesse in dit huis? Neem gerust contact op met
+                        Brockhoff Nieuwbouwmakelaars.
+                        <br></br>
+                        <a href="#"><i class="fa fa-phone"></i>0299-76524</a>
+                        <a href="#"><i class="fa fa-envelope"></i>Brockhoff@Nieuwbouwmakelaars.com</a>
+          
+                    </p>
+                  
+                </article>
+            </section>
+      <!--map -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.248985059216!2d5.043527315916272!3d52.51083297981254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6038743c96c3b%3A0x91f3890ba14559a6!2sSchepenmakersdijk%2016f%2C%201135%20AG%20Edam!5e0!3m2!1snl!2snl!4v1674682979763!5m2!1snl!2snl" 
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </main> 
+  <!--Footer -->
+      <footer>
+         <nav>
+              <div>
+                  <span>Diensten</span>
+                  <ul>
+                      <li><a href="#">Plaats je huis op Funda</a></li>
+                      <li><a href="#">Zoek een NVM-makelaar</a></li>
+                      <li><a href="#">Bladeren door een aanbod</a></li>
+                      <li><a href="#">Wat is mijn woning waard?</a></li>
+                    
+                  </ul>
+              </div>
+              <div>
+                  <span>Informatie</span>
+                  <ul>
+                      <li><a href="#">Vraag en antwoord</a></li>
+                      <li><a href="#">Funda index</a></li>
+                      <li><a href="#">Alles over een huis kopen</a></li>
+                      <li><a href="#">Verkoop je huis</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <span>Makelaars</span>
+                  <ul>
+                      <li><a href="#">Funda desk</a></li>
+                      <li><a href="#">Tips, trends en nieuws</a></li>
+                      <li><a href="#">Leads</a></li>
+                      <li><a href="#">Producten</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <span>Over ons</span>
+                  <ul>
+                      <li><a href="#">Over Funda</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Werken bij Funda</a></li>
+                      <li><a href="#">Adverteren</a></li>
+                  </ul>
+              </div>
+            </nav>
+        </footer>
+      </section>
+     </body>
+  </html>
