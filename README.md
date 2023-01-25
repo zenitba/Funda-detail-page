@@ -1,19 +1,26 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Funda detail page
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+### Opdrachtgever
+Funda is een bedrijf dat huizen en huurhuizen verkoopt. Ze helpen kopers en verkopers, huurders en verhuurders, en makelaars op weg. En dat doen ze al 20 jaar. Inmiddels zijn ze een van de grootste websites van Nederland waar iedere maand gemiddeld 5 miljoen mensen samenkomen. Op zoek naar een nieuw thuis of plek voor zakelijke ambities Funda kan jouw daarmee helpen.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+https://www.funda.nl
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+### Beschrijving
+Van Funda hebben wij de opdracht gekregen om hun object detail page na te gaan bouwen. De object detail page is een overzichts pagina van een huis waarin informatie staat over waar het huis is kenmerken over de huis etc.
 
+### Kenmerken
 
-## Licentie
+* HTML
+* CSS
+* Javascript
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+### Checklist
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+✅Header/Navigatie
+
+✅Fotogalerij
+
+✅Interactie
+
+❌Spijtig API niet gebruikt
+
